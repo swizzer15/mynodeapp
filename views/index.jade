@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  #wrap
+      // Fixed navbar
+      .navbar.navbar-fixed-top
+        .navbar-inner
+          a.brand(href='/') Todo List
+      // Begin page content
+      .container
+        form.bs-example.bs-example-form(role='form', method='post')
+          #sample
+            table.table.table-hover(id='table')
+          .input-group
+            span.input-group-addon
+              strong To Do :
+            input.form-control(type='text', placeholder='Text Here. .')
+            span.input-group-addon(name='spansub')
+              button.btn.btn-primary(type='button') Submit
+      #push
+    #footer
+      .container
+        p.muted.credit SAS | © 2013 All rights reserved.
+      
+
+
+
+
+
+
+
+
+
+
+

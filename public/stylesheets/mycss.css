@@ -1,0 +1,107 @@
+form.bs-example.bs-example-form{
+	width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+span.input-group-addon[name="spansub"] {
+	padding: 0px 0px;
+}
+
+button.btn.btn-primary {
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:1px;
+	border-top-left-radius:0px;
+	border-top-right-radius:1px;
+	padding: 5px 12px;
+	height: 145%;
+}
+
+.input-group .form-control{
+	height: 130%;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding-top: 60px;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+a.brand{
+  margin-left: 60px !important; 
+}
+
+/* Table CSS. */
+}table {
+border:none;
+border-collapse: collapse;
+}
+
+table td {
+border-left: 1px solid #F0F0F0;
+border-right: 1px solid #F0F0F0;
+}
+
+table td:first-child {
+border-left: 1px solid #F0F0F0;
+}
+
+table td:last-child {
+border-left: 1px solid #F0F0F0;
+}
+
+table tr:last-child {
+border-bottom: 1px solid #F0F0F0;
+}
